@@ -1,0 +1,40 @@
+# Arduino derleme çıktıları
+*.elf
+*.hex
+*.bin
+*.map
+build/
+
+# Arduino IDE geçici dosyaları
+*.bak
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# KiCad (devre çizimi)
+*.kicad_prl
+*-backups/
+fp-info-cache
+
+# Geçici dosyalar
+*.tmp
+*.swp
